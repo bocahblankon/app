@@ -1,0 +1,83 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  text-stroke: 1px rgba(255,255,255,0.1);
+  color: #555;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  padding-left: 25px;
+}
+h1,
+h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #adec4b;
+}
+h1 {
+  text-shadow: 1px -2px 12px #fbb308;
+  font-size: 40px;
+}
+#employees {
+  border: 2px;
+  border-color: #ccc;
+  border-style: solid;
+  background-color: #fbb308;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+#employees .employee {
+  margin: 20px;
+  padding: 5px;
+}
+#employees .employee .created_at {
+  display: none;
+}
+#employees .employee .title {
+  font-weight: bold;
+  background-color: #adec4b;
+}
+#employees .employee .name {
+  background-color: #d1fb8e;
+}
+#employees .employee input#delete {
+  margin-top: -17px;
+  margin-left: 255px;
+}
+#employees .employee input#edit {
+  margin-top: -20px;
+  margin-left: 215px;
+}
+.newemployee {
+  border: 3px;
+  border-color: #ccc;
+  border-style: solid;
+  background-color: #fbb308;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px;
+}
+input[type =text] {
+  width: 200px;
+  margin-left: 16px;
+  float: left;
+}
+input[type =button],
+input[type =submit] {
+  clear: both;
+  text-align: left;
+  margin-left: 165px;
+  display: block;
+}
+.label {
+  width: 150px;
+  text-align: right !important;
+  display: block;
+  float: left;
+}
